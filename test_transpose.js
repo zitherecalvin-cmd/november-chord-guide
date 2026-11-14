@@ -27,9 +27,13 @@ eq(T.transposeChordToken('C#5', -1, 'C'), 'C5', 'power chord C#5 down a semitone
 eq(T.classifyLine('| F     | G     | A       | A   |'), 'chord', 'bar-line progression is a chord line');
 eq(T.transposeLine('| F     | G     | A       | A   |', 2, 'G'), '| G     | A     | B       | B   |', 'bar-line progression transposes, bars kept');
 
-// flat vs sharp spelling follows target key
-eq(T.transposeChordToken('C', 1, 'F'), 'Db', 'C +1 spelled flat in key of F');
+// November set: sharps in every key, flat chords in the source respelled
+eq(T.transposeChordToken('C', 1, 'F'), 'C#', 'C +1 spelled sharp even in key of F');
 eq(T.transposeChordToken('C', 1, 'D'), 'C#', 'C +1 spelled sharp in key of D');
+eq(T.transposeChordToken('Bb/Eb', 0, 'A#'), 'A#/D#', 'flat chord and bass respelled as sharps');
+eq(T.transposeLine('Eb9 Ab7 Dbmaj7 Gb', 2, 'F'), 'F9 A#7 D#maj7 G#', 'transposing into F gives sharps');
+eq(T.usesFlats('Bb'), false, 'no key uses flats');
+eq(T.KEY_LIST.join(' '), 'C C# D D# E F F# G G# A A# B', 'key picker lists sharps only');
 
 // full circle: +12 semitones returns to the same spelling
 eq(T.transposeChordToken('F#m7', 12, 'A'), 'F#m7', '+12 semitones is a no-op');

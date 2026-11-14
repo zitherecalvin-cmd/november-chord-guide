@@ -346,13 +346,13 @@ footer.page a { color: var(--accent); }
     return T.FLAT_KEYS.indexOf(key) !== -1;
   }
 
-  // Minor-key songs (song.minor) spell sharps/flats by their relative major —
-  // e.g. G minor reads Bb/Eb (like Bb major), not A#/D#. "key" still holds
-  // just the root (picker value), so these map a root to its relative major
-  // and to the name a musician expects for that minor key.
-  var MINOR_RELATIVE_MAJOR = { C: 'Eb', Db: 'E', D: 'F', Eb: 'Gb', E: 'G', F: 'Ab',
-    'F#': 'A', G: 'Bb', Ab: 'B', A: 'C', Bb: 'Db', B: 'D' };
-  var MINOR_LABEL = { Db: 'C#m', Ab: 'G#m' }; // otherwise root + "m"
+  // Minor-key songs (song.minor) spell by their relative major. "key" still
+  // holds just the root (picker value), so this maps a root to its relative
+  // major. The November set spells every key with sharps (transpose.js), so
+  // the minor label is just root + "m" (e.g. A#m, C#m).
+  var MINOR_RELATIVE_MAJOR = { C: 'D#', 'C#': 'E', D: 'F', 'D#': 'F#', E: 'G', F: 'G#',
+    'F#': 'A', G: 'A#', 'G#': 'B', A: 'C', 'A#': 'C#', B: 'D' };
+  var MINOR_LABEL = {}; // label is root + "m"
   function spellingKey(song, key) {
     return song.minor ? (MINOR_RELATIVE_MAJOR[key] || key) : key;
   }
@@ -505,9 +505,8 @@ footer.page a { color: var(--accent); }
       fitSong(content); // transposed chords can make a line longer or shorter
     }
 
-    // Step by a semitone, landing on the key picker's own spelling (Db, Eb,
-    // F#, Ab, Bb) so the dropdown always shows the current key — a sharp
-    // name like "C#" has no matching <option> and would leave it blank.
+    // Step by a semitone, landing on the key picker's own spelling (C#, D#,
+    // F#, G#, A#) so the dropdown always shows the current key.
     function step(delta) {
       state.offset += delta;
       state.key = T.KEY_LIST[T.keyIndex(T.keyAfterShift(song.key, state.offset, false))];

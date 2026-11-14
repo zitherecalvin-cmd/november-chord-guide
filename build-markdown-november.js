@@ -107,7 +107,7 @@ doc.push('- **− / +** buttons step the whole song up or down one semitone at a
 doc.push('- The key dropdown jumps straight to any of the 12 keys (key-to-key transposition, e.g. D → G).');
 doc.push('- **Reset** returns to the original written key.');
 doc.push('- Transposing only rewrites the chords (roots, slash-chord bass notes, and all extensions/qualities like `maj7`, `add9`, `sus4`, `m7b5` are preserved) — lyrics, section labels, and chord-to-lyric spacing are untouched.');
-doc.push("- Sharp/flat spelling automatically follows the target key's convention (flat keys: F, Bb, Eb, Ab, Db, Gb — sharp keys: C, G, D, A, E, B, F#).");
+doc.push('- Every chord is spelled with sharps (C#, D#, F#, G#, A#), in every key, including after transposing; the key dropdown lists sharps too.');
 doc.push('');
 doc.push('The transpose engine lives in `transpose.js` (also usable from Node) with its test suite in `test_transpose.js` (`node test_transpose.js`). Shared with the other guides; this copy also knows `add#11` (The Only Exception\'s Aadd#11).');
 doc.push('');

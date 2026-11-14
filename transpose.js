@@ -29,12 +29,14 @@
 
   var NOTE_BASE = { C: 0, D: 2, E: 4, F: 5, G: 7, A: 9, B: 11 };
 
-  // Keys that read as flats vs. sharps once you transpose into them.
-  var SHARP_KEYS = ['C', 'G', 'D', 'A', 'E', 'B', 'F#'];
-  var FLAT_KEYS = ['F', 'Bb', 'Eb', 'Ab', 'Db', 'Gb'];
+  // November set (2026-11-14, user-requested): every chord is spelled with
+  // sharps, in every key, so no key reads as a flat key. (The other guides'
+  // copies of this file use flats for F, Bb, Eb, Ab, Db, Gb.)
+  var SHARP_KEYS = SHARP_NAMES.slice();
+  var FLAT_KEYS = [];
 
-  // The 12 pitch classes, in the spelling guitarists expect on a key picker.
-  var KEY_LIST = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'F#', 'G', 'Ab', 'A', 'Bb', 'B'];
+  // The 12 pitch classes as the key picker lists them (sharps only).
+  var KEY_LIST = SHARP_NAMES.slice();
 
   // A recognized chord-quality suffix. Longest/most specific alternatives
   // first so the regex engine doesn't stop early on a shorter partial match.

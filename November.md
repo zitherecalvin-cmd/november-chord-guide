@@ -14,7 +14,7 @@
 - The key dropdown jumps straight to any of the 12 keys (key-to-key transposition, e.g. D → G).
 - **Reset** returns to the original written key.
 - Transposing only rewrites the chords (roots, slash-chord bass notes, and all extensions/qualities like `maj7`, `add9`, `sus4`, `m7b5` are preserved) — lyrics, section labels, and chord-to-lyric spacing are untouched.
-- Sharp/flat spelling automatically follows the target key's convention (flat keys: F, Bb, Eb, Ab, Db, Gb — sharp keys: C, G, D, A, E, B, F#).
+- Every chord is spelled with sharps (C#, D#, F#, G#, A#), in every key, including after transposing; the key dropdown lists sharps too.
 
 The transpose engine lives in `transpose.js` (also usable from Node) with its test suite in `test_transpose.js` (`node test_transpose.js`). Shared with the other guides; this copy also knows `add#11` (The Only Exception's Aadd#11).
 
@@ -26,7 +26,7 @@ BPM notes: taken from the sheets — Push 84, Lips of an Angel 64, Aurora Sunris
 
 ## Setlist
 
-1. [Kahit Di Mo Alam](#1-kahit-di-mo-alam) — December Avenue · Key of Bb
+1. [Kahit Di Mo Alam](#1-kahit-di-mo-alam) — December Avenue · Key of A#
 2. [Pahina](#2-pahina) — Cup of Joe · ♩ 80 BPM · Key of G
 3. [Sailing](#3-sailing) — Christopher Cross · Key of A
 4. [Two Is Better Than One](#4-two-is-better-than-one) — Boys Like Girls · Key of C
@@ -36,41 +36,41 @@ BPM notes: taken from the sheets — Push 84, Lips of an Angel 64, Aurora Sunris
 8. [Ligaya](#8-ligaya) — Eraserheads · Key of A
 9. [Mahal Magmahal](#9-mahal-magmahal) — Esremborak · Key of G
 10. [The Only Exception](#10-the-only-exception) — Paramore · ♩ 69 BPM · Key of B
-11. [I Think God Can Explain](#11-i-think-god-can-explain) — Splender · Key of Bb
+11. [I Think God Can Explain](#11-i-think-god-can-explain) — Splender · Key of A#
 12. [Lips of an Angel](#12-lips-of-an-angel) — Hinder · ♩ 64 BPM · Key of D
-13. [Bakit Part 2](#13-bakit-part-2) — Mayonnaise · Key of Eb
-14. [Over You](#14-over-you) — Daughtry · Key of Eb
+13. [Bakit Part 2](#13-bakit-part-2) — Mayonnaise · Key of D#
+14. [Over You](#14-over-you) — Daughtry · Key of D#
 15. [Jet Lag](#15-jet-lag) — Simple Plan · Key of B
-16. [Aurora Sunrise](#16-aurora-sunrise) — FRANCO · ♩ 81 BPM · Key of Db
+16. [Aurora Sunrise](#16-aurora-sunrise) — FRANCO · ♩ 81 BPM · Key of C#
 17. [Careless Christmas with Beer](#17-careless-christmas-with-beer) — Medley: Careless Whisper / Christmas In Our Hearts (Jose Mari Chan) / Beer (The Itchyworms) · Key of G
 
 ---
 
 ## 1. Kahit Di Mo Alam — December Avenue
-Key of **Bb**
+Key of **A#**
 
-> Capo 1st fret: play the A shapes (A, Asus, A/D, D9, E7, AM7) to get these Bb chords.
+> Capo 1st fret: play the A shapes (A, Asus, A/D, D9, E7, AM7) to get these A# chords.
 
 **[Intro]**
 
 ```
-Bb Bbsus Bb/Eb Eb9  x2
+A# A#sus A#/D# D#9  x2
 ```
 
 **[Verse]**
 
 ```
-    Bb
+    A#
 Ipikit mo man ang iyong mata
-      Bbsus
+      A#sus
 Di pa rin naman mag-iiba
-Bb/Eb                           Eb9
+A#/D#                           D#9
 Nabalutan ng poot ang puso mo
-      Bb
+      A#
 Tila malimit kang ngumiti ngayon
-    Bbsus
+    A#sus
 Di ka rin naman ganyan noon
-Bb/Eb                            Eb9
+A#/D#                            D#9
 Na ubusan ng tibok ang puso mo
 ```
 
@@ -81,24 +81,24 @@ Na ubusan ng tibok ang puso mo
 Kulang na ba ang mga ulap
 F
 Sa langit at buwan
-   Eb9                      F7
+   D#9                      F7
 Di ka na babalik sa lilim ng ulan
 ```
 
 **[Chorus]**
 
 ```
-Bb
+A#
 Sa bawat saglit
-             BbM7
+             A#M7
 Handang masaktan
-                 Eb9 F7
+                 D#9 F7
 Kahit di mo alam
-             Bb
+             A#
 Subukang muli
-           BbM7
+           A#M7
 At pagbigyan
-                Eb9 F7
+                D#9 F7
 Ang ating nakaraan...
 Kahit di mo na alam (pause after F7)
 ```
@@ -106,23 +106,23 @@ Kahit di mo na alam (pause after F7)
 **[Instrumental]**
 
 ```
-Bb - Bbsus - Bb/Eb - Eb9  x2
+A# - A#sus - A#/D# - D#9  x2
 ```
 
 **[Verse]**
 
 ```
-   Bb
+   A#
 Ipikit mo na ang iyong mata
-    Bbsus
+    A#sus
 Ang nakaraa'y limutin na
-Bb/Eb                       Eb9
+A#/D#                       D#9
 Umaasang di ka na mawawala
-   Bb
+   A#
 Sadyang mahirap lang ngumiti ngayon
-  Bbsus
+  A#sus
 Minahal kita mula noon
-Bb/Eb                       Eb9
+A#/D#                       D#9
 Ibalik na ang tibok ng puso mo.
 ```
 
@@ -133,28 +133,28 @@ Ibalik na ang tibok ng puso mo.
 Kulang na ba ang mga ulap
 F
 Sa langit at buwan
-Eb9                         F7
+D#9                         F7
 Di ka na babalik sa lilim ng ulan
 ```
 
 **[Chorus]**
 
 ```
-Bb
+A#
 Sa bawat saglit
-             BbM7
+             A#M7
 Handang masaktan
-                 Eb9 F7
+                 D#9 F7
 Kahit di mo alam
-             Bb
+             A#
 Subukang muli
-           BbM7
+           A#M7
 At pagbigyan
-                Eb9 F7
+                D#9 F7
 Ang ating nakaraan...
 Kahit di mo na alam
 
-Bb Bbsus Bb/Eb Eb9
+A# A#sus A#/D# D#9
 Kahit di mo na alam
 Kahit di mo na..
 ```
@@ -162,32 +162,32 @@ Kahit di mo na..
 **[Instrumental]**
 
 ```
-Gm F Eb9 F7  x2
+Gm F D#9 F7  x2
 ```
 
 **[Chorus]**
 
 ```
-Bb
+A#
 Sa bawat saglit
-BbM7
+A#M7
 Handang masaktan
-                   Eb9 F7
+                   D#9 F7
 Kahit di mo alam
 
-             Bb
+             A#
 Subukang muli
-           BbM7
+           A#M7
 At pagbigyan
-                Eb9 F7
+                D#9 F7
 Ang ating nakaraan
-                  Bb Bbsus
+                  A# A#sus
 Kahit di mo na alam
-                 Bb/Eb Eb9
+                 A#/D# D#9
 Kahit di mo na alam
-                  Bb Bbsus
+                  A# A#sus
 Kahit di mo na alam
-                Bb/Eb Eb9
+                A#/D# D#9
 Kahit di mo na alam
 ```
 
@@ -418,8 +418,8 @@ And soon I will be free
 **[Interlude]**
 
 ```
-A    Fmaj7    G    Ebmaj7   F    G
-C    Abmaj7   Bb   F    G    A
+A    Fmaj7    G    D#maj7   F    G
+C    G#maj7   A#   F    G    A
 ```
 
 **[Verse 3]**
@@ -812,19 +812,19 @@ D - G
 **[Bridge]**
 
 ```
-Bb
+A#
 Ang dami ko pang sinabi
-Bb
+A#
 Tungkol sa aking sarili
 F
 Lahat ng yun 'di na bale
 F
 Ikaw lang ang importante
 
-Bb
+A#
 Yakapin mo ako
 
-Bb
+A#
 Lunurin sa iyo
 G
 Sa loob ng 'yong mga bisig
@@ -865,7 +865,7 @@ D - G - D - G
 ## 7. Push — Matchbox Twenty
 ♩ **84 BPM** · Key of **F#**
 
-> Written in F#. The source sheet is in G with the guitar tuned down a half step (Eb Ab Db Gb Bb Eb), which gives the same chords.
+> Written in F#. The source sheet is in G with the guitar tuned down a half step (D# G# C# F# A# D#), which gives the same chords.
 
 **[Intro]**
 
@@ -1401,30 +1401,30 @@ Oh, and I'm on my way to believing
 ---
 
 ## 11. I Think God Can Explain — Splender
-Key of **Bb**
+Key of **A#**
 
-> Written in Bb. The source sheet is in G with capo 2nd fret (which sounds in A); capo 3 with the G shapes gives these chords.
+> Written in A#. The source sheet is in G with capo 2nd fret (which sounds in A); capo 3 with the G shapes gives these chords.
 
 **[Intro]**
 
 ```
-Ebadd9 - F - Gm
+D#add9 - F - Gm
 ```
 
 **[Verse 1]**
 
 ```
-Ebadd9            F                 Gm
+D#add9            F                 Gm
 There's a lot of things I understand
-Ebadd9                     F
+D#add9                     F
 And there's a lot of things that
-Gm     - F/A  - Bb (quick transition)
+Gm     - F/A  - A# (quick transition)
 I don't want to know
-Ebadd9                          F              Gm
+D#add9                          F              Gm
 But you're the only face I recognize
-Ebadd9                          F
+D#add9                          F
 It's so damn sweet of you
-Gm     - F/A  - Bb
+Gm     - F/A  - A#
 to look me in the eyes
 ```
 
@@ -1433,40 +1433,40 @@ to look me in the eyes
 ```
 Cm               F
 It's alright, I'm O.K.
-Bb               Bb/Eb      - Bb/D (quick transition)
+A#               A#/D#      - A#/D (quick transition)
 I think God can explain
 Cm       F
 I believe I'm the same
-Bb       Bb/Eb       - Bb/D
+A#       A#/D#       - A#/D
 I get carried away
 Cm           F
 It's alright, I'm O.K.
-Bb               Bb/Eb      - Bb/D
+A#               A#/D#      - A#/D
 I think God can explain
 Cm       F
 I'm relieved I'm relaxed
-Bb       Bb/Eb       - Bb/D
+A#       A#/D#       - A#/D
 I'll get over it yet
 ```
 
 **[Verse 2]**
 
 ```
-Ebadd9           F
+D#add9           F
 The scent of vaseline
 Gm
 in the summertime
-Ebadd9                  F
+D#add9                  F
 The feel of an ice cube
-Gm - F/A             - Bb
+Gm - F/A             - A#
 Melting overtime
-Ebadd9                 F
+D#add9                 F
 The world seems bigger
 Gm
 Than both of us
-Ebadd9                        F
+D#add9                        F
 Yet it seems so small
-Gm - F/A             - Bb
+Gm - F/A             - A#
 when I begin to cry
 ```
 
@@ -1475,32 +1475,32 @@ when I begin to cry
 ```
 Cm               F
 It's alright, I'm O.K.
-Bb               Bb/Eb     - Bb/D (quick transition)
+A#               A#/D#     - A#/D (quick transition)
 I think God can explain
 Cm       F
 I believe I'm the same
-Bb       Bb/Eb   - Bb/D
+A#       A#/D#   - A#/D
 I get carried away
 Cm           F
 It's alright, I'm O.K.
-Bb               Bb/Eb     - Bb/D
+A#               A#/D#     - A#/D
 I think God can explain
 Cm       F
 I'm relieved I'm relaxed
-Bb       Bb/Eb - Bb/D         Ab
+A#       A#/D# - A#/D         G#
 I'll get over it yet
 ```
 
 **[Bridge]**
 
 ```
-Bb                                Ab
+A#                                G#
 I'm so much better than you guessed
-Bb                                Ab
+A#                                G#
 I'm so much bigger than you guessed
-Bb                                Ab
+A#                                G#
 I'm so much brighter than you guessed
-Eb - Eb/D - Cm - Bb - Ab Ab Ab Ab
+D# - D#/D - Cm - A# - G# G# G# G#
 ```
 
 **[Chorus]**
@@ -1508,37 +1508,37 @@ Eb - Eb/D - Cm - Bb - Ab Ab Ab Ab
 ```
 Cm             F
 It's alright, I'm O.K.
-Bb             Bb/Eb - Bb/D (quick transition)
+A#             A#/D# - A#/D (quick transition)
 I think God can explain
 Cm       F
 I believe I'm the same
-Bb       Bb/Eb - Bb/D
+A#       A#/D# - A#/D
 I get carried away
 Cm          F
 It's alright, I'm O.K.
-Bb              Bb/Eb   - Bb/D
+A#              A#/D#   - A#/D
 I think God can explain
 Cm      F
 I'm relieved I'm relaxed
-Bb       Bb/Eb      - Bb/D
+A#       A#/D#      - A#/D
 I'll get off of your back
 ```
 
 **[Ending Chorus]**
 
 ```
-Ebadd9          F               Gm
+D#add9          F               Gm
 I think God can explain
-Ebadd9          F               Gm
+D#add9          F               Gm
 I think God can explain
-Ebadd9          F
+D#add9          F
 I think God can explain
 ```
 
 **[End]**
 
 ```
-Eb - Eb/D - Cm - Bb - Ab
+D# - D#/D - Cm - A# - G#
 ```
 
 ---
@@ -1686,46 +1686,46 @@ Honey, why you callin' me so late?
 ---
 
 ## 13. Bakit Part 2 — Mayonnaise
-Key of **Eb**
+Key of **D#**
 
-> Written in Eb. The source sheet is in E with the guitar tuned down a half step (Eb Ab Db Gb Bb Eb), which gives the same chords.
+> Written in D#. The source sheet is in E with the guitar tuned down a half step (D# G# C# F# A# D#), which gives the same chords.
 
 **[Intro]**
 
 ```
-Eb Absus2   Cm    Bb
+D# G#sus2   Cm    A#
 ```
 
 **[Verse]**
 
 ```
-Eb         Absus2
+D#         G#sus2
   Lumuha kang nag-iisa
-Cm                 Bb
+Cm                 A#
   Nakadungaw sa buwan
-Eb       Absus2
+D#       G#sus2
   Lumilipad ang isip ko
-Cm               Bb
+Cm               A#
   Nakasabit sa ulap
 ```
 
 **[Pre-Chorus]**
 
 ```
-        Absus2
+        G#sus2
 Ngunit bakit pinilit
-      Fm7          Absus2 Bb
+      Fm7          G#sus2 A#
 Kung ayaw kong masaktan
 ```
 
 **[Chorus]**
 
 ```
-   Eb       Fm
+   D#       Fm
 Sinabi ko sa kanya
    Gm            Fm
 Na di pa rin nililikha
-     Eb           Fm
+     D#           Fm
 Ang tulad kong parang timang
    Gm           Fm
 Na di pa rin maintindihan
@@ -1734,31 +1734,31 @@ Na di pa rin maintindihan
 **[Verse 2]**
 
 ```
-Eb        Absus2
+D#        G#sus2
   Malayo ang pagtitig ko
-Cm           Bb
+Cm           A#
   Dala ng hangin
-Eb      Absus2          Cm         Bb
+D#      G#sus2          Cm         A#
   Akala ko ay pwede pang umasa sa 'yo
 ```
 
 **[Pre-Chorus]**
 
 ```
-        Absus2
+        G#sus2
 Ngunit bakit pinilit
-     Fm7           Absus2 Bb
+     Fm7           G#sus2 A#
 Kung ayaw kong masaktan
 ```
 
 **[Chorus]**
 
 ```
-   Eb       Fm
+   D#       Fm
 Sinabi ko sa kanya
    Gm            Fm
 Na di pa rin nililikha
-     Eb           Fm
+     D#           Fm
 Ang tulad kong parang timang
    Gm           Fm
 Na di pa rin maintindihan
@@ -1767,26 +1767,26 @@ Na di pa rin maintindihan
 **[Instrumental]**
 
 ```
-Cm    Bb  x2
+Cm    A#  x2
 ```
 
 **[Bridge]**
 
 ```
-   Cm            Bb
+   Cm            A#
 O bakit ba pag wala ka na
-         Absus2      Bb
+         G#sus2      A#
 Ako'y kulang, ako'y kulang
 ```
 
 **[Chorus]**
 
 ```
-   Eb       Fm
+   D#       Fm
 Sinabi ko sa kanya
    Gm            Fm
 Na di pa rin nililikha
-     Eb           Fm
+     D#           Fm
 Ang tulad kong parang timang
    Gm           Fm
 Na di pa rin maintindihan
@@ -1795,202 +1795,202 @@ Na di pa rin maintindihan
 **[Coda]**
 
 ```
-Eb Fm    Gm    Fm
+D# Fm    Gm    Fm
 ```
 
 ---
 
 ## 14. Over You — Daughtry
-Key of **Eb**
+Key of **D#**
 
-> Written in Eb. The source sheet is in D with capo 1st fret, which gives the same chords.
+> Written in D#. The source sheet is in D with capo 1st fret, which gives the same chords.
 
 **[Verse 1]**
 
 ```
-Eb                              Bb
+D#                              A#
   Now that it's all said and done,
                              Cm
 I can't believe you were the one
-             Bb              Ab
+             A#              G#
 To build me up and tear me down,
 
 Like an old abandoned house.
-Eb                          Bb
+D#                          A#
   What you said when you left
                               Cm
 Just left me cold and out of breath.
-            Bb                   F7
+            A#                   F7
 I fell too far, was in way too deep.
-                         Ab      Bb
+                         G#      A#
 Guess I let you get the best of me.
 ```
 
 **[Chorus]**
 
 ```
-         Eb
+         D#
 Well, I never saw it coming.
 
 I should've started running
-   Bb
+   A#
 A long, long time ago.
         Cm
 And I never thought I'd doubt you,
-      Bb
+      A#
 I'm better off without you
- Ab                          Bb
+ G#                          A#
 More than you, more than you know.
-     Eb
+     D#
 I'm slowly getting closure.
 
 I guess it's really over.
 
-     Bb
+     A#
 I'm finally getting better.
             Cm
 And now I'm picking up the pieces.
-     Bb
+     A#
 I'm spending all of these years
- Ab                     Bb
+ G#                     A#
 Putting my heart back together.
-           F7                             Ab
+           F7                             G#
 'Cause the day I thought I'd never get through,
-      Bb   N.C.
+      A#   N.C.
 I got over you.
 ```
 
 **[Interlude]**
 
 ```
-Eb   B      Db
+D#   B      C#
 ```
 
 **[Verse 2]**
 
 ```
-Eb                            Bb
+D#                            A#
  You took a hammer to these walls,
                               Cm
 Dragged the memories down the hall,
-            Bb               Ab
+            A#               G#
 Packed your bags and walked away.
 
 There was nothing I could say.
-Eb                                      Bb
+D#                                      A#
   And when you slammed the front door shut,
                        Cm
 A lot of others opened up,
-          Bb              F7
+          A#              F7
 So did my eyes so I could see
-                        Ab        Bb
+                        G#        A#
 That you never were the best for me.
 ```
 
 **[Chorus]**
 
 ```
-         Eb
+         D#
 Well, I never saw it coming.
 
 I should've started running
-   Bb
+   A#
 A long, long time ago.
         Cm
 And I never thought I'd doubt you,
-      Bb
+      A#
 I'm better off without you
- Ab                          Bb
+ G#                          A#
 More than you, more than you know.
-     Eb
+     D#
 I'm slowly getting closure.
 
 I guess it's really over.
-     Bb
+     A#
 I'm finally getting better.
             Cm
 And now I'm picking up the pieces.
-     Bb
+     A#
 I'm spending all of these years
- Ab                     Bb
+ G#                     A#
 Putting my heart back together.
-           F7                             Ab
+           F7                             G#
 'Cause the day I thought I'd never get through,
-      Bb
+      A#
 I got over you.
 ```
 
 **[Solo]**
 
 ```
-Eb   B     Db  F7   Ab  Bb
+D#   B     C#  F7   G#  A#
 ```
 
 **[Chorus]**
 
 ```
-         Eb
+         D#
 Well, I never saw it coming.
 
 I should've started running
-   Bb
+   A#
 A long, long time ago.
        Cm
 And I never thought I'd doubt you,
-     Bb
+     A#
 I'm better off without you
- Ab
+ G#
 More than you, more than you know.
 
-         Eb
+         D#
 Well, I never saw it coming.
 
 I should've started running
-   Bb
+   A#
 A long, long time ago.
         Cm
 And I never thought I'd doubt you,
-      Bb
+      A#
 I'm better off without you
- Ab                          Bb
+ G#                          A#
 More than you, more than you know.
-     Eb
+     D#
 I'm slowly getting closure.
 
 I guess it's really over.
-     Bb
+     A#
 I'm finally getting better.
             Cm
 And now I'm picking up the pieces.
 
-     Bb
+     A#
 I'm spending all of these years
- Ab
+ G#
 Putting my heart back together.
 ```
 
 **[Outro]**
 
 ```
-Eb
+D#
 Whoa oh ah oh
-           Bb
+           A#
 Well, I'm putting my heart back together,
-Cm     Bb
+Cm     A#
 Whoa oh ah oh
-Ab
+G#
    'Cause I got over you.
-Eb
+D#
 Whoa oh ah oh
-Bb
+A#
    Well, I got over you.
-Cm     Bb
+Cm     A#
 Whoa oh ah oh
-       Ab
+       G#
 I got over you.
-             F7                           Ab
+             F7                           G#
 'Cause the day I thought I'd never get through,
-       Bb N.C.
+       A# N.C.
 I got over you.
 ```
 
@@ -2187,147 +2187,147 @@ Ohh, ohhh (so jet lagged)
 ---
 
 ## 16. Aurora Sunrise — FRANCO
-♩ **81 BPM** · Key of **Db**
+♩ **81 BPM** · Key of **C#**
 
 **[Intro]**
 
 ```
-Ab Gb Ab Gb Ab Gb Fm Ab7
+G# F# G# F# G# F# Fm G#7
 
-Ab Fm Gb Ab
+G# Fm F# G#
 ```
 
 **[Verse]**
 
 ```
-Gb            Ab     Ab7
+F#            G#     G#7
 I waited so long for this time
-Ab          F7      Fm Ab
+G#          F7      Fm G#
 I want to turn with the tides
-                 Ab
+                 G#
 My waiting so long is over
-         F7 Gb
+         F7 F#
 This is our time
-Db7     Bb7
+C#7     A#7
 Fear I want Run with love
-Bb7
+A#7
 Fear I want sit back relax
-        Db7
+        C#7
 Fear I want rock your boat
-         Eb7                Ab
+         D#7                G#
 Still I fear i'll come rock you
 ```
 
 **[Chorus]**
 
 ```
-         Gb     Db      Ab
+         F#     C#      G#
 I wanted to see Sunrise
-Bbm      Gb      Db        Ab
+A#m      F#      C#        G#
 I wanted to feel sunlight
-Bbm         Gb      Db     Ab
+A#m         F#      C#     G#
 I waited to be with ocean waves
 
-      Gb
+      F#
 Again again
-Db Ab Gb Ab Gb Ab Gb Ab
+C# G# F# G# F# G# F# G#
 ```
 
 **[Verse]**
 
 ```
-          Ab7
+          G#7
 I feel so natural
-              Ab7
+              G#7
 This herb so natural
-Ab
+G#
 I'll rise all your daughters and
-Ab
+G#
 The sons of the sea
-Ab
+G#
 Obliterate uh this uh negativity
-                                      Gb
+                                      F#
 And turn your life and your love into positivity
 ```
 
 **[Chorus]**
 
 ```
-     Fm          Gb       Ab
+     Fm          F#       G#
 What we say is a aere way
-Bbm      Gb     Db      Ab
+A#m      F#     C#      G#
 I wanted to see Sunrise
-Bbm      Gb      Db        Ab
+A#m      F#      C#        G#
 I wanted to feel sunlight
-Bbm         Gb      Db     Ab
+A#m         F#      C#     G#
 I waited to be with ocean waves
-Bbm   Gb
+A#m   F#
 Again again
 ```
 
 **[Solo]**
 
 ```
-Db Bbm Gb Fm Gb F7 Db Bbm
+C# A#m F# Fm F# F7 C# A#m
 
-Db F7 Gb Db Gb
+C# F7 F# C# F#
 ```
 
 **[Chorus]**
 
 ```
-                Ab Db
+                G# C#
 When life comes at you
-             Fm       Gb   Ab
+             Fm       F#   G#
 Receive with all your mind
-             Bbm Db
+             A#m C#
 What we have come after
-Db
+C#
 Receive it all
-Db
+C#
 Come back
-Gb
+F#
 Come back
 Fm
 Come back
-Ab
+G#
 Fear I want Run with love
 ```
 
 **[Verse]**
 
 ```
-                     Db7
+                     C#7
 Fear I want sit back relax
-       Ab7
+       G#7
 Fear I want rock your boat
-                            Ab
+                            G#
 Still I fear i'll come rock you
 ```
 
 **[Chorus]**
 
 ```
-Bbm         Gb Db       Ab Bbm
+A#m         F# C#       G# A#m
 I wanted to see Sunrise
-            Gb    Db      Ab
+            F#    C#      G#
 I wanted to feel sunlight
-Bbm            Gb      Db    Ab
+A#m            F#      C#    G#
 I'm willing to be with ocean waves
-Bbm   Gb    Db
+A#m   F#    C#
 Again again
-Ab    Bbm
+G#    A#m
 Again again
-Gb    Db Ab    Bbm   Gb
+F#    C# G#    A#m   F#
 Again   Again again again
 ```
 
 **[Outro]**
 
 ```
-Db Bbm Db Bbm Fm Db Fm Db
+C# A#m C# A#m Fm C# Fm C#
 
-Bbm Fm Db Bbm Fm Db
+A#m Fm C# A#m Fm C#
 ```
 
 ---
