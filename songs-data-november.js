@@ -70,7 +70,9 @@
  * 17 songs; the two separate .docx sheets stay in the folder.
  *
  * 2026-11-14 (later, user correction from the .docx): Pre-chorus 1, "And all
- * are one in God": Bm D7 moved from over "in" to over "God".
+ * are one in God": Bm D7 moved to where the sheet now puts it. The sheet
+ * pushes them with a tab (Courier New 11pt, default 0.5" tab stops), which
+ * lands Bm at character 16, over the "o" of "God".
  */
 (function (root, factory) {
   if (typeof module === 'object' && module.exports) {
@@ -2006,7 +2008,7 @@
           "",
           "   D           G",
           "Where nations are at peace",
-          "  F#           Bm D7",
+          "  F#            Bm D7",
           "And all are one in God"
         ] },
         { label: "Chorus", lines: [
