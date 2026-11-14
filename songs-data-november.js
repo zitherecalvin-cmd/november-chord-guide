@@ -73,6 +73,11 @@
  * are one in God": Bm D7 moved to where the sheet now puts it. The sheet
  * pushes them with a tab (Courier New 11pt, default 0.5" tab stops), which
  * lands Bm at character 16, over the "o" of "God".
+ *
+ * 2026-11-14 (later, user-requested): Christmas Chorus, "Be always in our
+ * hearts": C D G placed as the sheet's tabs put them (same measure): C at
+ * character 3 ("always"), D at 11 (the "n" of "in"), G at 22 (the "s" of
+ * "hearts"). Replaces the spacing chosen when the medley was added.
  */
 (function (root, factory) {
   if (typeof module === 'object' && module.exports) {
@@ -2026,7 +2031,7 @@
           "As another new year starts",
           " D",
           "And may the spirit of Christmas",
-          "   C      D      G",
+          "   C       D          G",
           "Be always in our hearts"
         ] },
         { label: "Beer Intro", lines: [

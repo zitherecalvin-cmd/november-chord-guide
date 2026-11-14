@@ -2393,7 +2393,7 @@ Let Him be the One to guide us
 As another new year starts
  D
 And may the spirit of Christmas
-   C      D      G
+   C       D          G
 Be always in our hearts
 ```
 
