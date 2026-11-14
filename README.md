@@ -13,7 +13,7 @@ each song, Top button, print styles, phone/tablet drawer.
 | `November.md` | Markdown chart, generated from the song data |
 | `build-markdown-november.js` | `node build-markdown-november.js` regenerates `November.md` |
 | `transpose.js` / `test_transpose.js` | Transpose engine and its tests (`node test_transpose.js`) |
-| `*.docx` | Source chord sheets |
+| `*.docx` | Source chord sheets (kept in this folder only; not in the git repo) |
 
 After editing `songs-data-november.js`, run `node build-markdown-november.js`
 to refresh the Markdown; the HTML page reads the data file directly.

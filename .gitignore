@@ -1,2 +1,5 @@
 # Word / Office lock files
 ~$*
+
+# Source chord sheets: kept in this folder, not published
+*.docx
