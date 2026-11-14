@@ -2372,7 +2372,7 @@ For a bright tomorrow
 
    D           G
 Where nations are at peace
-  F#         Bm D7
+  F#           Bm D7
 And all are one in God
 ```
 

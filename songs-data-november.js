@@ -68,6 +68,9 @@
  * last chord line is spaced with tabs on the sheet ("C  D  G"); written with
  * spaces as C over "always", D over "in", G over "hearts". The set is now
  * 17 songs; the two separate .docx sheets stay in the folder.
+ *
+ * 2026-11-14 (later, user correction from the .docx): Pre-chorus 1, "And all
+ * are one in God": Bm D7 moved from over "in" to over "God".
  */
 (function (root, factory) {
   if (typeof module === 'object' && module.exports) {
@@ -2003,7 +2006,7 @@
           "",
           "   D           G",
           "Where nations are at peace",
-          "  F#         Bm D7",
+          "  F#           Bm D7",
           "And all are one in God"
         ] },
         { label: "Chorus", lines: [
