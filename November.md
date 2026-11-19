@@ -18,7 +18,7 @@
 
 The transpose engine lives in `transpose.js` (also usable from Node) with its test suite in `test_transpose.js` (`node test_transpose.js`). Shared with the other guides; this copy also knows `add#11` (The Only Exception's Aadd#11).
 
-BPM notes: taken from the sheets — Push 84, Lips of an Angel 64, Aurora Sunrise 81. Pahina's sheet says 160 counted in eighths; it's 80 here, as in the August 2026 guide. The Only Exception's 138 is halved to 69 the same way. The other songs have no BPM on their sheets and scroll at the default pace. Capo and tuning are in each song's note. Jeepney is written in A minor, so its Key toolbar shows minor names (Am).
+BPM notes: taken from the sheets — Push 84, Lips of an Angel 64. Pahina's sheet says 160 counted in eighths; it's 80 here, as in the August 2026 guide. The Only Exception's 138 is halved to 69 the same way, and I'm With You's 152 to 76. The other songs have no BPM on their sheets and scroll at the default pace. Capo and tuning are in each song's note.
 
 **Auto-scroll** in `chord_guide_november.html` stops at the end of each song (when its last line reaches the bottom of the screen); press Auto-Scroll again to carry on into the next song at that song's BPM.
 
@@ -30,7 +30,7 @@ BPM notes: taken from the sheets — Push 84, Lips of an Angel 64, Aurora Sunris
 2. [Pahina](#2-pahina) — Cup of Joe · ♩ 80 BPM · Key of G
 3. [Sailing](#3-sailing) — Christopher Cross · Key of A
 4. [Two Is Better Than One](#4-two-is-better-than-one) — Boys Like Girls · Key of C
-5. [Jeepney](#5-jeepney) — Kala · Key of A minor
+5. [I'm With You](#5-im-with-you) — Avril Lavigne · ♩ 76 BPM · Key of B
 6. [Gusto Ko Lamang Sa Buhay](#6-gusto-ko-lamang-sa-buhay) — The Itchyworms · Key of D
 7. [Push](#7-push) — Matchbox Twenty · ♩ 84 BPM · Key of F#
 8. [Ligaya](#8-ligaya) — Eraserheads · Key of A
@@ -39,9 +39,9 @@ BPM notes: taken from the sheets — Push 84, Lips of an Angel 64, Aurora Sunris
 11. [I Think God Can Explain](#11-i-think-god-can-explain) — Splender · Key of A#
 12. [Lips of an Angel](#12-lips-of-an-angel) — Hinder · ♩ 64 BPM · Key of D
 13. [Bakit Part 2](#13-bakit-part-2) — Mayonnaise · Key of D#
-14. [Over You](#14-over-you) — Daughtry · Key of D#
+14. [Over You](#14-over-you) — Daughtry · Key of C
 15. [Jet Lag](#15-jet-lag) — Simple Plan · Key of B
-16. [Aurora Sunrise](#16-aurora-sunrise) — FRANCO · ♩ 81 BPM · Key of C#
+16. [The Fight Is Over](#16-the-fight-is-over) — Urbandub · Key of B
 17. [Careless Christmas with Beer](#17-careless-christmas-with-beer) — Medley: Careless Whisper / Christmas In Our Hearts (Jose Mari Chan) / Beer (The Itchyworms) · Key of G
 
 ---
@@ -50,6 +50,14 @@ BPM notes: taken from the sheets — Push 84, Lips of an Angel 64, Aurora Sunris
 Key of **A#**
 
 > Capo 1st fret: play the A shapes (A, Asus, A/D, D9, E7, AM7) to get these A# chords.
+
+**[Overture]**
+
+```
+D# - F - Gm - Am - A# - Dm - D#  (6X)
+
+Gm - A# - F - Gm - A# - F
+```
 
 **[Intro]**
 
@@ -569,161 +577,160 @@ Two is better than one
 
 ---
 
-## 5. Jeepney — Kala
-Key of **A** (A minor)
+## 5. I'm With You — Avril Lavigne
+♩ **76 BPM** · Key of **B**
+
+> Written in B. The source sheet is in A with capo 2nd fret, which gives the same chords.
 
 **[Intro]**
 
 ```
-FM7 Em7 Am7 (4x)
+B C#sus4     Eadd9
+B C#sus4     Eadd9
+B C#sus4     Eadd9
+B C#sus4     Eadd9
 ```
 
 **[Verse 1]**
 
 ```
-FM7              Em7
-Excuse me miss.. mawalang galang na
-       Am7
-Kanina pa kita kasi napapansin
-                   FM7
-Magkakilala ba tayo
-                   Em7 Am7
-Ay hindi pasensiya na, ooohhh
-
-FM7              Em7                      Am7
-Excuse me miss ako ulit, nangungulit lang po, yeah
-                         FM7
-Ang ganda mo palang tumawa
-                     Em7
-Pwede bang magpakilala
-Am7
-Magpakilala sa'yo
+    G#m
+I'm standing on the bridge
+     Eadd9
+I'm waiting in the dark
+   G#m                          E
+I thought that you'd be here by now
+          G#m
+There's nothing but the rain
+    Eadd9
+No footsteps on the ground
+     G#m                      E
+I'm listening but there's no sound
 ```
 
-**[Refrain]**
+**[Pre-chorus]**
 
 ```
-FM7 Em7
-
-Am7                         FM7
-Huwag kang matakot sa'kin
-Em7        Am7
-Hindi ako multo
-FM7            Em7
-Kung ayaw mo, ok lang
-Am7                 G        Gm7
-Pasuyo na lang ng bayad ko, bayad ko..
+F#                      Eadd9
+Isn't anyone trying to find me
+F#                          Eadd9
+Won't somebody come take me home
 ```
 
 **[Chorus]**
 
 ```
-FM7   Em7 Am7                   C
-Sukob na, konti na lang at aandar na ang ating jeepney
-FM7      Em7             Am7                  C
-Sandaang tao ang nakasakay 'tila galit at naniniksik pa
-
-FM7 Em7 Am7                    C               C7
-Tara na, konti na lang at aandar na ang ating jeepney
-FM7         Em7               Am        C
-Hindi na makapag hintay umuwing kasama ka
-```
-
-**[Solo]**
-
-```
-FM7 Em7 Am7 (2x)
+       B     C#sus4 Eadd9
+It's a damn cold night
+                  B   C#sus4 Eadd9
+I try to figure out this life
+           B                 C#sus4        Eadd9
+Won't you     take me by the hand, take me somewhere new
+         G#m           F#      Eadd9
+I don't know who you are but I
+          G#m E
+I'm with you
+          G#m E
+I'm with you
 ```
 
 **[Verse 2]**
 
 ```
-FM7              Em7
-Excuse me miss.. mawalang galang na
-       Am7
-Kanina pa kita kasi napapansin
-                   FM7
-Magkakilala ba tayo
-                   Em7 Am7
-Ay hindi pasensiya na, ooohhh
+    G#m
+I'm looking for a place
+    Eadd9
+I'm searching for a face
+   G#m             E
+Is anybody here I know
+       G#m
+'Cause nothing's going right
+    Eadd9
+And everything's a mess
+    G#m                  E
+And no one likes to be alone
 ```
 
-**[Refrain]**
+**[Pre-chorus]**
 
 ```
-FM7 Em7
-
-Am7                         FM7
-Huwag kang matakot sa'kin
-Em7        Am7
-Hindi ako multo
-FM7            Em7
-Kung ayaw mo, ok lang
-Am7                 G        Gm7
-Pasuyo na lang ng bayad ko, bayad ko..
+F#                      Eadd9
+Isn't anyone trying to find me
+F#                          Eadd9
+Won't somebody come take me home
 ```
 
 **[Chorus]**
 
 ```
-FM7   Em7 Am7                   C
-Sukob na, konti na lang at aandar na ang ating jeepney
-FM7      Em7             Am7                  C
-Sandaang tao ang nakasakay 'tila galit at naniniksik pa
-
-FM7 Em7 Am7                    C               C7
-Tara na, konti na lang at aandar na ang ating jeepney
-FM7         Em7               Am
-Hindi na makapag hintay umuwing kasama ka
-```
-
-**[Solo]**
-
-```
-FM7 Em7 Am7 (2x)
-```
-
-**[Last Stanza]**
-
-```
-FM7              Em7               Am7
-Hello miss, nakatingin ka na naman meron ka bang nais malaman
-     FM7             Em7               Am7
-Aba oo malapit ako doon, gusto mo teka lang, saan sa may bicutan
+       B     C#sus4 Eadd9
+It's a damn cold night
+                  B   C#sus4 Eadd9
+I try to figure out this life
+           B                 C#sus4        Eadd9
+Won't you     take me by the hand, take me somewhere new
+         G#m           F#      Eadd9
+I don't know who you are but I
+          G#m E
+I'm with you
+          G#m        Eadd9
+I'm with you, yeah yeah...
 ```
 
 **[Bridge]**
 
 ```
-FM7          Em7 Am7
-Salamat ng marami dito na ako bababa
-FM7                  Em7
-Tatawagan na lang kita
+   F#                        E
+Oh, why is everything so confusing
 
-                   Am7
-Tatawagan na lang kita
-                   Am7
-Tatawagan na lang kita
+F#                         E
+  Maybe I'm just out of my mind
+     F#
+Yeah yeah yeah yeah yeah
+E
+Yeah yeah yeah yeah
+D#m F#
+Yeah huh
 ```
 
 **[Chorus]**
 
 ```
-FM7   Em7 Am7                   C
-Sukob na, konti na lang at aandar na ang ating jeepney
-FM7      Em7             Am7                  C
-Sandaang tao ang nakasakay 'tila galit at naniniksik pa
-
-FM7 Em7 Am7                    C               C7
-Tara na, konti na lang at aandar na ang ating jeepney
-FM7         Em7               Am
-Hindi na makapag hintay umuwing kasama ka
+        B     C#sus4 Eadd9
+It's a damn cold night
+                   B   C#sus4 Eadd9
+I try to figure out this life
+            B                 C#sus4        Eadd9
+Won't you      take me by the hand, take me somewhere new
+          G#m           F#      Eadd9
+I don't know who you are but I
+           B C#sus4 Eadd9
+I'm with you
+           B C#sus4 Eadd9
+I'm with you
+B                  C#sus4        Eadd9
+  Take me by the hand, take me somewhere new
+          G#m           F#      Eadd9
+I don't know who you are but I
+           B C#sus4 Eadd9
+I'm with you
+           B C#sus4 Eadd9
+I'm with you
 ```
 
 **[Outro]**
 
 ```
-FM7 Em7 Am7 (2x)
+B                C#sus4        Eadd9
+  Take me by the hand, take me somewhere new
+         G#m          F#      Eadd9
+I don't know who you are but I
+          G#m E
+I'm with you
+          G#m E
+I'm with you
+          B
+I'm with you
 ```
 
 ---
@@ -1447,6 +1454,8 @@ Cm       F
 I'm relieved I'm relaxed
 A#       A#/D#       - A#/D
 I'll get over it yet
+
+D#add9 - F - Gm
 ```
 
 **[Verse 2]**
@@ -1653,7 +1662,8 @@ With the lips of an angel
 **[Break: Solo]**
 
 ```
-F   C   D   (x4)
+A#  C   D   (x3)
+A#  C   Am  D
 ```
 
 **[Chorus/Outro]**
@@ -1677,7 +1687,15 @@ And I
 Never want to say goodbye
                      Em              F#m G
 But girl you make it hard to be faithful
-                           (strum: A Bm G      D)
+
+With the lips of an angel
+    Bm
+And I
+                       A
+Never want to say goodbye
+                     Em              F#m G
+But girl you make it hard to be faithful
+                           Bm - A - G
 With the lips of an angel
 A      Bm       G   D
 Honey, why you callin' me so late?
@@ -1801,196 +1819,196 @@ D# Fm    Gm    Fm
 ---
 
 ## 14. Over You — Daughtry
-Key of **D#**
+Key of **C**
 
-> Written in D#. The source sheet is in D with capo 1st fret, which gives the same chords.
+> Written in C. The source sheet is in D with capo 1st fret (which sounds in D#).
 
 **[Verse 1]**
 
 ```
-D#                              A#
+C                               G
   Now that it's all said and done,
-                             Cm
+                             Am
 I can't believe you were the one
-             A#              G#
+             G               F
 To build me up and tear me down,
 
 Like an old abandoned house.
-D#                          A#
+C                           G
   What you said when you left
-                              Cm
+                              Am
 Just left me cold and out of breath.
-            A#                   F7
+            G                    D7
 I fell too far, was in way too deep.
-                         G#      A#
+                         F       G
 Guess I let you get the best of me.
 ```
 
 **[Chorus]**
 
 ```
-         D#
+         C
 Well, I never saw it coming.
 
 I should've started running
-   A#
+   G
 A long, long time ago.
-        Cm
+        Am
 And I never thought I'd doubt you,
-      A#
+      G
 I'm better off without you
- G#                          A#
+ F                           G
 More than you, more than you know.
-     D#
+     C
 I'm slowly getting closure.
 
 I guess it's really over.
 
-     A#
+     G
 I'm finally getting better.
-            Cm
+            Am
 And now I'm picking up the pieces.
-     A#
+     G
 I'm spending all of these years
- G#                     A#
+ F                      G
 Putting my heart back together.
-           F7                             G#
+           D7                             F
 'Cause the day I thought I'd never get through,
-      A#   N.C.
+      G    N.C.
 I got over you.
 ```
 
 **[Interlude]**
 
 ```
-D#   B      C#
+C    G#     A#
 ```
 
 **[Verse 2]**
 
 ```
-D#                            A#
+C                             G
  You took a hammer to these walls,
-                              Cm
+                              Am
 Dragged the memories down the hall,
-            A#               G#
+            G                F
 Packed your bags and walked away.
 
 There was nothing I could say.
-D#                                      A#
+C                                       G
   And when you slammed the front door shut,
-                       Cm
+                       Am
 A lot of others opened up,
-          A#              F7
+          G               D7
 So did my eyes so I could see
-                        G#        A#
+                        F         G
 That you never were the best for me.
 ```
 
 **[Chorus]**
 
 ```
-         D#
+         C
 Well, I never saw it coming.
 
 I should've started running
-   A#
+   G
 A long, long time ago.
-        Cm
+        Am
 And I never thought I'd doubt you,
-      A#
+      G
 I'm better off without you
- G#                          A#
+ F                           G
 More than you, more than you know.
-     D#
+     C
 I'm slowly getting closure.
 
 I guess it's really over.
-     A#
+     G
 I'm finally getting better.
-            Cm
+            Am
 And now I'm picking up the pieces.
-     A#
+     G
 I'm spending all of these years
- G#                     A#
+ F                      G
 Putting my heart back together.
-           F7                             G#
+           D7                             F
 'Cause the day I thought I'd never get through,
-      A#
+      G
 I got over you.
 ```
 
 **[Solo]**
 
 ```
-D#   B     C#  F7   G#  A#
+C    G#    A#  D7   F   G
 ```
 
 **[Chorus]**
 
 ```
-         D#
+         C
 Well, I never saw it coming.
 
 I should've started running
-   A#
+   G
 A long, long time ago.
-       Cm
+       Am
 And I never thought I'd doubt you,
-     A#
+     G
 I'm better off without you
- G#
+ F
 More than you, more than you know.
 
-         D#
+         C
 Well, I never saw it coming.
 
 I should've started running
-   A#
+   G
 A long, long time ago.
-        Cm
+        Am
 And I never thought I'd doubt you,
-      A#
+      G
 I'm better off without you
- G#                          A#
+ F                           G
 More than you, more than you know.
-     D#
+     C
 I'm slowly getting closure.
 
 I guess it's really over.
-     A#
+     G
 I'm finally getting better.
-            Cm
+            Am
 And now I'm picking up the pieces.
 
-     A#
+     G
 I'm spending all of these years
- G#
+ F
 Putting my heart back together.
 ```
 
 **[Outro]**
 
 ```
-D#
+C
 Whoa oh ah oh
-           A#
+           G
 Well, I'm putting my heart back together,
-Cm     A#
+Am     G
 Whoa oh ah oh
-G#
+F
    'Cause I got over you.
-D#
+C
 Whoa oh ah oh
-A#
+G
    Well, I got over you.
-Cm     A#
+Am     G
 Whoa oh ah oh
-       G#
+       F
 I got over you.
-             F7                           G#
+             D7                           F
 'Cause the day I thought I'd never get through,
-       A# N.C.
+       G  N.C.
 I got over you.
 ```
 
@@ -2186,148 +2204,144 @@ Ohh, ohhh (so jet lagged)
 
 ---
 
-## 16. Aurora Sunrise — FRANCO
-♩ **81 BPM** · Key of **C#**
+## 16. The Fight Is Over — Urbandub
+Key of **B**
+
+> Written in B. The source sheet is in C (no capo).
 
 **[Intro]**
 
 ```
-G# F# G# F# G# F# Fm G#7
+B
 
-G# Fm F# G#
+G#m  F# - E  G#m  F# - E  G#m  F# - E       F#   E
 ```
 
 **[Verse]**
 
 ```
-F#            G#     G#7
-I waited so long for this time
-G#          F7      Fm G#
-I want to turn with the tides
-                 G#
-My waiting so long is over
-         F7 F#
-This is our time
-C#7     A#7
-Fear I want Run with love
-A#7
-Fear I want sit back relax
-        C#7
-Fear I want rock your boat
-         D#7                G#
-Still I fear i'll come rock you
+          G#m        F# E
+When the fighting is over
+         G#m               F# E
+Coz our mouths have just run dry
+          G#m        F# E
+As our feelings get colder
+          G#m          F# E
+There's nothing to hold us now
+      F#        F#          G#m     E
+Gave all this time just to be let down
 ```
 
 **[Chorus]**
 
 ```
-         F#     C#      G#
-I wanted to see Sunrise
-A#m      F#      C#        G#
-I wanted to feel sunlight
-A#m         F#      C#     G#
-I waited to be with ocean waves
+B
+Explain to me
+B
+What has become of us?
+E
+With words released
+E
+We can never take them back
+G#m
+For all that were worth now
+          E
+Not even pleading can save us
+```
 
-      F#
-Again again
-C# G# F# G# F# G# F# G#
+**[Interlude]**
+
+```
+G#m  F# - E  G#m  F# - E  G#m  F# - E       F#   E
 ```
 
 **[Verse]**
 
 ```
-          G#7
-I feel so natural
-              G#7
-This herb so natural
-G#
-I'll rise all your daughters and
-G#
-The sons of the sea
-G#
-Obliterate uh this uh negativity
-                                      F#
-And turn your life and your love into positivity
+               G#m           F#
+I know you'll meet someone better
+            E
+But would still think of me
+               G#m          F#
+If he can't hold you like I did
+           E
+Would you run back to me?
+        G#m            F#
+I know this pain shall pass
+   F#         F#               G#m    E
+Gave all this time still we couldn't last
 ```
 
 **[Chorus]**
 
 ```
-     Fm          F#       G#
-What we say is a aere way
-A#m      F#     C#      G#
-I wanted to see Sunrise
-A#m      F#      C#        G#
-I wanted to feel sunlight
-A#m         F#      C#     G#
-I waited to be with ocean waves
-A#m   F#
-Again again
+B
+Explain to me
+B
+What has become of us?
+E
+With words released
+E
+We can never take them back
+G#m
+For all that were worth now
+          E
+Not even pleading can save us
+```
+
+**[Bridge]**
+
+```
+G#m
+How did we end this way?
+B
+Our promises thrown away
+E
+All the years we built, broken up
+E           B
+See it crashing down
+   G#m
+I have to say
+        B                  E
+Though alone in this crazy sea of faces
+               E            Em
+It's still your face I wanna know
 ```
 
 **[Solo]**
 
 ```
-C# A#m F# Fm F# F7 C# A#m
-
-C# F7 F# C# F#
+G#m B E  x2
+Em
 ```
 
 **[Chorus]**
 
 ```
-                G# C#
-When life comes at you
-             Fm       F#   G#
-Receive with all your mind
-             A#m C#
-What we have come after
-C#
-Receive it all
-C#
-Come back
-F#
-Come back
-Fm
-Come back
-G#
-Fear I want Run with love
-```
-
-**[Verse]**
-
-```
-                     C#7
-Fear I want sit back relax
-       G#7
-Fear I want rock your boat
-                            G#
-Still I fear i'll come rock you
-```
-
-**[Chorus]**
-
-```
-A#m         F# C#       G# A#m
-I wanted to see Sunrise
-            F#    C#      G#
-I wanted to feel sunlight
-A#m            F#      C#    G#
-I'm willing to be with ocean waves
-A#m   F#    C#
-Again again
-G#    A#m
-Again again
-F#    C# G#    A#m   F#
-Again   Again again again
+B
+Explain to me
+B
+What has become of us?
+E
+With words released
+E
+We can never take them back
+G#m
+For all that were worth now
+          E
+Not even pleading can save us
 ```
 
 **[Outro]**
 
 ```
-C# A#m C# A#m Fm C# Fm C#
+B E G#m E
+```
 
-A#m Fm C# A#m Fm C#
+**[End]**
+
+```
+G#m
 ```
 
 ---

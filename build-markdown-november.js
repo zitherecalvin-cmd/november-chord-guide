@@ -111,7 +111,7 @@ doc.push('- Every chord is spelled with sharps (C#, D#, F#, G#, A#), in every ke
 doc.push('');
 doc.push('The transpose engine lives in `transpose.js` (also usable from Node) with its test suite in `test_transpose.js` (`node test_transpose.js`). Shared with the other guides; this copy also knows `add#11` (The Only Exception\'s Aadd#11).');
 doc.push('');
-doc.push("BPM notes: taken from the sheets — Push 84, Lips of an Angel 64, Aurora Sunrise 81. Pahina's sheet says 160 counted in eighths; it's 80 here, as in the August 2026 guide. The Only Exception's 138 is halved to 69 the same way. The other songs have no BPM on their sheets and scroll at the default pace. Capo and tuning are in each song's note. Jeepney is written in A minor, so its Key toolbar shows minor names (Am).");
+doc.push("BPM notes: taken from the sheets — Push 84, Lips of an Angel 64. Pahina's sheet says 160 counted in eighths; it's 80 here, as in the August 2026 guide. The Only Exception's 138 is halved to 69 the same way, and I'm With You's 152 to 76. The other songs have no BPM on their sheets and scroll at the default pace. Capo and tuning are in each song's note.");
 doc.push('');
 doc.push('**Auto-scroll** in `chord_guide_november.html` stops at the end of each song (when its last line reaches the bottom of the screen); press Auto-Scroll again to carry on into the next song at that song\'s BPM.');
 doc.push('');
