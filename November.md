@@ -30,7 +30,7 @@ BPM notes: taken from the sheets — Push 84, Lips of an Angel 64. Pahina's shee
 2. [Pahina](#2-pahina) — Cup of Joe · ♩ 80 BPM · Key of G
 3. [Sailing](#3-sailing) — Christopher Cross · Key of A
 4. [Two Is Better Than One](#4-two-is-better-than-one) — Boys Like Girls · Key of C
-5. [I'm With You](#5-im-with-you) — Avril Lavigne · ♩ 76 BPM · Key of B
+5. [I'm With You](#5-im-with-you) — Avril Lavigne · ♩ 76 BPM · Key of A
 6. [Gusto Ko Lamang Sa Buhay](#6-gusto-ko-lamang-sa-buhay) — The Itchyworms · Key of D
 7. [Push](#7-push) — Matchbox Twenty · ♩ 84 BPM · Key of F#
 8. [Ligaya](#8-ligaya) — Eraserheads · Key of A
@@ -578,158 +578,158 @@ Two is better than one
 ---
 
 ## 5. I'm With You — Avril Lavigne
-♩ **76 BPM** · Key of **B**
+♩ **76 BPM** · Key of **A**
 
-> Written in B. The source sheet is in A with capo 2nd fret, which gives the same chords.
+> Written in A, as the source sheet is. The sheet plays it with capo 2nd fret (sounding in B).
 
 **[Intro]**
 
 ```
-B C#sus4     Eadd9
-B C#sus4     Eadd9
-B C#sus4     Eadd9
-B C#sus4     Eadd9
+A Bsus4      Dadd9
+A Bsus4      Dadd9
+A Bsus4      Dadd9
+A Bsus4      Dadd9
 ```
 
 **[Verse 1]**
 
 ```
-    G#m
+    F#m
 I'm standing on the bridge
-     Eadd9
+     Dadd9
 I'm waiting in the dark
-   G#m                          E
+   F#m                          D
 I thought that you'd be here by now
-          G#m
+          F#m
 There's nothing but the rain
-    Eadd9
+    Dadd9
 No footsteps on the ground
-     G#m                      E
+     F#m                      D
 I'm listening but there's no sound
 ```
 
 **[Pre-chorus]**
 
 ```
-F#                      Eadd9
+E                       Dadd9
 Isn't anyone trying to find me
-F#                          Eadd9
+E                           Dadd9
 Won't somebody come take me home
 ```
 
 **[Chorus]**
 
 ```
-       B     C#sus4 Eadd9
+       A     Bsus4  Dadd9
 It's a damn cold night
-                  B   C#sus4 Eadd9
+                  A   Bsus4  Dadd9
 I try to figure out this life
-           B                 C#sus4        Eadd9
+           A                 Bsus4         Dadd9
 Won't you     take me by the hand, take me somewhere new
-         G#m           F#      Eadd9
+         F#m           E       Dadd9
 I don't know who you are but I
-          G#m E
+          F#m D
 I'm with you
-          G#m E
+          F#m D
 I'm with you
 ```
 
 **[Verse 2]**
 
 ```
-    G#m
+    F#m
 I'm looking for a place
-    Eadd9
+    Dadd9
 I'm searching for a face
-   G#m             E
+   F#m             D
 Is anybody here I know
-       G#m
+       F#m
 'Cause nothing's going right
-    Eadd9
+    Dadd9
 And everything's a mess
-    G#m                  E
+    F#m                  D
 And no one likes to be alone
 ```
 
 **[Pre-chorus]**
 
 ```
-F#                      Eadd9
+E                       Dadd9
 Isn't anyone trying to find me
-F#                          Eadd9
+E                           Dadd9
 Won't somebody come take me home
 ```
 
 **[Chorus]**
 
 ```
-       B     C#sus4 Eadd9
+       A     Bsus4  Dadd9
 It's a damn cold night
-                  B   C#sus4 Eadd9
+                  A   Bsus4  Dadd9
 I try to figure out this life
-           B                 C#sus4        Eadd9
+           A                 Bsus4         Dadd9
 Won't you     take me by the hand, take me somewhere new
-         G#m           F#      Eadd9
+         F#m           E       Dadd9
 I don't know who you are but I
-          G#m E
+          F#m D
 I'm with you
-          G#m        Eadd9
+          F#m        Dadd9
 I'm with you, yeah yeah...
 ```
 
 **[Bridge]**
 
 ```
-   F#                        E
+   E                         D
 Oh, why is everything so confusing
 
-F#                         E
+E                          D
   Maybe I'm just out of my mind
-     F#
+     E
 Yeah yeah yeah yeah yeah
-E
+D
 Yeah yeah yeah yeah
-D#m F#
+C#m E
 Yeah huh
 ```
 
 **[Chorus]**
 
 ```
-        B     C#sus4 Eadd9
+        A     Bsus4  Dadd9
 It's a damn cold night
-                   B   C#sus4 Eadd9
+                   A   Bsus4  Dadd9
 I try to figure out this life
-            B                 C#sus4        Eadd9
+            A                 Bsus4         Dadd9
 Won't you      take me by the hand, take me somewhere new
-          G#m           F#      Eadd9
+          F#m           E       Dadd9
 I don't know who you are but I
-           B C#sus4 Eadd9
+           A Bsus4  Dadd9
 I'm with you
-           B C#sus4 Eadd9
+           A Bsus4  Dadd9
 I'm with you
-B                  C#sus4        Eadd9
+A                  Bsus4         Dadd9
   Take me by the hand, take me somewhere new
-          G#m           F#      Eadd9
+          F#m           E       Dadd9
 I don't know who you are but I
-           B C#sus4 Eadd9
+           A Bsus4  Dadd9
 I'm with you
-           B C#sus4 Eadd9
+           A Bsus4  Dadd9
 I'm with you
 ```
 
 **[Outro]**
 
 ```
-B                C#sus4        Eadd9
+A                Bsus4         Dadd9
   Take me by the hand, take me somewhere new
-         G#m          F#      Eadd9
+         F#m          E       Dadd9
 I don't know who you are but I
-          G#m E
+          F#m D
 I'm with you
-          G#m E
+          F#m D
 I'm with you
-          B
+          A
 I'm with you
 ```
 
